@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~angular-notifier/styles";
+
+@import "./assets/scss/common.scss";
+@import "../node_modules/font-awesome/css/font-awesome.css";
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+// @import "~angular-notifier/styles";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.modal-dialog{
+    .modal-content {
+        width: 900px !important;
+        position: absolute !important;
+        right: -300px !important;
+    }
+}
+
+.success-snackbar {
+    background: #4aad10;
+    color: #fff;
+    .mat-button-wrapper {
+        color: #fff;
+    }
+  }
+  .danger-snackbar {
+    background: #f33e3e;
+    color: #fff;
+    .mat-button-wrapper {
+        color: #fff;
+    }
+  }
+  .info-snackbar {
+    background: #473aff;
+    color: #fff;
+    .mat-button-wrapper {
+        color: #fff;
+    }
+  }
